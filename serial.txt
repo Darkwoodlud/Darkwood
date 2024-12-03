@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARKWOOD: AI Innovations in Croatia</title>
+    <style>
+        :root {
+            --deep-forest-green: #1A472A;
+            --moss-green: #2E8B57;
+            --light-sage: #8FBC8F;
+            --cream: #F5F5DC;
+            --dark-wood: #4B3621;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--cream);
+            color: var(--deep-forest-green);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--deep-forest-green);
+            color: var(--cream);
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--moss-green);
+        }
+
+        h1, h2 {
+            color: var(--deep-forest-green);
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: var(--light-sage);
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: var(--dark-wood);
+            color: var(--cream);
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DARKWOOD: AI Innovations for Croatian Markets</h1>
+            <p>Discovering Untapped AI Potential in Croatia</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Emerging AI Service Opportunities</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Healthcare AI</h3>
+                    <p>Personalized medical diagnostics and predictive health analytics tailored to Croatian demographics.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Agricultural AI</h3>
+                    <p>Precision farming solutions for Croatian vineyards, olive groves, and diverse agricultural landscapes.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Tourism AI</h3>
+                    <p>Multilingual recommendation engines and capacity management for Croatia's dynamic tourism sector.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Public Sector Automation</h3>
+                    <p>AI-powered administrative tools and citizen service chatbots in Croatian language.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Small Business Support</h3>
+                    <p>Market analysis, financial planning, and digital marketing AI for local SMEs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Localized threat detection and fraud prevention AI solutions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 DARKWOOD AI Research | Exploring Croatia's AI Frontiers</p>
+        </div>
+    </footer>
+</body>
+</html>
